@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SimpleMathWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="700.001" Width="882.91">
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File">
@@ -14,6 +14,121 @@
                 <MenuItem Header="_Exit" />
             </MenuItem>
         </Menu>
-        <TextBox AcceptsReturn="True" />
+        <Grid Margin="0,30,0,75" Width="751" Height="500">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition x:Name="AddColumn" Width="*" />
+                <ColumnDefinition x:Name="SubtractColumn" Width="*" />
+                <ColumnDefinition x:Name="MultiplyColumn" Width="*" />
+                <ColumnDefinition x:Name="DivideColumn" Width="*" />
+                <ColumnDefinition x:Name="ButtonColumn" Width="*" />
+                
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Label x:Name="lblAdd1" Grid.Column="0" Grid.Row="0" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 1</Label>
+            <TextBox x:Name="textBoxAdd1" Grid.Column="0" Grid.Row="0" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblAdd2" Grid.Column="0" Grid.Row="1" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 2</Label>
+            <TextBox x:Name="textBoxAdd2" Grid.Column="0" Grid.Row="1" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblAdd3" Grid.Column="0" Grid.Row="2" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 3</Label>
+            <TextBox x:Name="textBoxAdd3" Grid.Column="0" Grid.Row="2" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblAdd4" Grid.Column="0" Grid.Row="3" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 4</Label>
+            <TextBox x:Name="textBoxAdd4" Grid.Column="0" Grid.Row="3" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblAdd5" Grid.Column="0" Grid.Row="4" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 5</Label>
+            <TextBox x:Name="textBoxAdd5" Grid.Column="0" Grid.Row="4" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblAdd6" Grid.Column="0" Grid.Row="5" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 6</Label>
+            <TextBox x:Name="textBoxAdd6" Grid.Column="0" Grid.Row="5" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblAdd7" Grid.Column="0" Grid.Row="6" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 7</Label>
+            <TextBox x:Name="textBoxAdd7" Grid.Column="0" Grid.Row="6" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblAdd8" Grid.Column="0" Grid.Row="7" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 8</Label>
+            <TextBox x:Name="textBoxAdd8" Grid.Column="0" Grid.Row="7" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblAdd9" Grid.Column="0" Grid.Row="8" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 9</Label>
+            <TextBox x:Name="textBoxAdd9" Grid.Column="0" Grid.Row="8" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblAdd10" Grid.Column="0" Grid.Row="9" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 10</Label>
+            <TextBox x:Name="textBoxAdd10" Grid.Column="0" Grid.Row="9" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+
+            <Label x:Name="lblSubtract1" Grid.Column="1" Grid.Row="0" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 1</Label>
+            <TextBox x:Name="textBoxSubtract1" Grid.Column="1" Grid.Row="0" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblSubtract2" Grid.Column="1" Grid.Row="1" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 2</Label>
+            <TextBox x:Name="textBoxSubtract2" Grid.Column="1" Grid.Row="1" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblSubtract3" Grid.Column="1" Grid.Row="2" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 3</Label>
+            <TextBox x:Name="textBoxSubtract3" Grid.Column="1" Grid.Row="2" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblSubtract4" Grid.Column="1" Grid.Row="3" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 4</Label>
+            <TextBox x:Name="textBoxSubtract4" Grid.Column="1" Grid.Row="3" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblSubtract5" Grid.Column="1" Grid.Row="4" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 5</Label>
+            <TextBox x:Name="textBoxSubtract5" Grid.Column="1" Grid.Row="4" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblSubtract6" Grid.Column="1" Grid.Row="5" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 6</Label>
+            <TextBox x:Name="textBoxSubtract6" Grid.Column="1" Grid.Row="5" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblSubtract7" Grid.Column="1" Grid.Row="6" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 7</Label>
+            <TextBox x:Name="textBoxSubtract7" Grid.Column="1" Grid.Row="6" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblSubtract8" Grid.Column="1" Grid.Row="7" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 8</Label>
+            <TextBox x:Name="textBoxSubtract8" Grid.Column="1" Grid.Row="7" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblSubtract9" Grid.Column="1" Grid.Row="8" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 9</Label>
+            <TextBox x:Name="textBoxSubtract9" Grid.Column="1" Grid.Row="8" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblSubtract10" Grid.Column="1" Grid.Row="9" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 10</Label>
+            <TextBox x:Name="textBoxSubtract10" Grid.Column="1" Grid.Row="9" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+
+            <Label x:Name="lblMultiply1" Grid.Column="2" Grid.Row="0" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 1</Label>
+            <TextBox x:Name="textBoxMultiply1" Grid.Column="2" Grid.Row="0" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblMultiply2" Grid.Column="2" Grid.Row="1" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 2</Label>
+            <TextBox x:Name="textBoxMultiply2" Grid.Column="2" Grid.Row="1" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblMultiply3" Grid.Column="2" Grid.Row="2" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 3</Label>
+            <TextBox x:Name="textBoxMultiply3" Grid.Column="2" Grid.Row="2" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblMultiply4" Grid.Column="2" Grid.Row="3" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 4</Label>
+            <TextBox x:Name="textBoxMultiply4" Grid.Column="2" Grid.Row="3" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblMultiply5" Grid.Column="2" Grid.Row="4" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 5</Label>
+            <TextBox x:Name="textBoxMultiply5" Grid.Column="2" Grid.Row="4" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblMultiply6" Grid.Column="2" Grid.Row="5" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 6</Label>
+            <TextBox x:Name="textBoxMultiply6" Grid.Column="2" Grid.Row="5" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblMultiply7" Grid.Column="2" Grid.Row="6" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 7</Label>
+            <TextBox x:Name="textBoxMultiply7" Grid.Column="2" Grid.Row="6" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblMultiply8" Grid.Column="2" Grid.Row="7" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 8</Label>
+            <TextBox x:Name="textBoxMultiply8" Grid.Column="2" Grid.Row="7" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblMultiply9" Grid.Column="2" Grid.Row="8" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 9</Label>
+            <TextBox x:Name="textBoxMultiply9" Grid.Column="2" Grid.Row="8" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblMultiply10" Grid.Column="2" Grid.Row="9" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 10</Label>
+            <TextBox x:Name="textBoxMultiply10" Grid.Column="2" Grid.Row="9" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+
+            <Label x:Name="lblDivide1" Grid.Column="3" Grid.Row="0" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 1</Label>
+            <TextBox x:Name="textBoxDivide1" Grid.Column="3" Grid.Row="0" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblDivide2" Grid.Column="3" Grid.Row="1" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 2</Label>
+            <TextBox x:Name="textBoxDivide2" Grid.Column="3" Grid.Row="1" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblDivide3" Grid.Column="3" Grid.Row="2" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 3</Label>
+            <TextBox x:Name="textBoxDivide3" Grid.Column="3" Grid.Row="2" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblDivide4" Grid.Column="3" Grid.Row="3" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 4</Label>
+            <TextBox x:Name="textBoxDivide4" Grid.Column="3" Grid.Row="3" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblDivide5" Grid.Column="3" Grid.Row="4" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 5</Label>
+            <TextBox x:Name="textBoxDivide5" Grid.Column="3" Grid.Row="4" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblDivide6" Grid.Column="3" Grid.Row="5" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 6</Label>
+            <TextBox x:Name="textBoxDivide6" Grid.Column="3" Grid.Row="5" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblDivide7" Grid.Column="3" Grid.Row="6" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 7</Label>
+            <TextBox x:Name="textBoxDivide7" Grid.Column="3" Grid.Row="6" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblDivide8" Grid.Column="3" Grid.Row="7" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 8</Label>
+            <TextBox x:Name="textBoxDivide8" Grid.Column="3" Grid.Row="7" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblDivide9" Grid.Column="3" Grid.Row="8" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 9</Label>
+            <TextBox x:Name="textBoxDivide9" Grid.Column="3" Grid.Row="8" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+            <Label x:Name="lblDivide10" Grid.Column="3" Grid.Row="9" MaxHeight="30" MaxWidth="60" HorizontalAlignment="Left">Question 10</Label>
+            <TextBox x:Name="textBoxDivide10" Grid.Column="3" Grid.Row="9" MinHeight="30" MinWidth="30" HorizontalAlignment="Right" Margin="0,0,0,10" />
+
+            <Button Margin="10" Grid.Column="4" Grid.Row="3" Click="Button_Click">Check Answers</Button>
+            <Button Margin="10" Grid.Column="4" Grid.Row="8" Click="Button_Click_1">Cheat</Button>
+
+            <Label x:Name="AddScore" Grid.Column="0" Grid.Row="10"></Label>
+            <Label x:Name="SubtractScore" Grid.Column="1" Grid.Row="10"></Label>
+            <Label x:Name="MultiplyScore" Grid.Column="2" Grid.Row="10"></Label>
+            <Label x:Name="DivideScore" Grid.Column="3" Grid.Row="10"></Label>
+        </Grid>
+
     </DockPanel>
+    
 </Window>
