@@ -1,0 +1,34 @@
+﻿<Window x:Class="SimpleMathWPF.ChooseDifficulty"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleMathWPF"
+        mc:Ignorable="d"
+        Title="ChooseDifficulty" Height="263.948" Width="231.76" Loaded="Window_Loaded">
+    <StackPanel>
+        <GroupBox Margin="5,5,10,5" Header="Choose Difficulty" HorizontalContentAlignment="Stretch">
+            <StackPanel>
+                <RadioButton Name="rdEasy" IsChecked="True"></RadioButton>
+                <RadioButton Name="rdMedium"></RadioButton>
+                <RadioButton Name="rdHard"></RadioButton>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox x:Name="grpDifficulty" Margin="5,5,10,5" Header="Choose Operations" HorizontalContentAlignment="Stretch">
+            <StackPanel>
+                <CheckBox Name="opAdd" HorizontalAlignment="Left" Width="168"></CheckBox>
+                <CheckBox Name="opSubtract" HorizontalAlignment="Left" Width="168"></CheckBox>
+                <CheckBox Name="opMultiply" HorizontalAlignment="Left" Width="168"></CheckBox>
+                <CheckBox Name="opDivide" HorizontalAlignment="Left" Width="168"></CheckBox>
+            </StackPanel>
+        </GroupBox>
+        <StackPanel Orientation="Horizontal">
+            <Button MinWidth="80" Name="btnOK" Content="OK" Margin="10,0,0,0" Click="btnOK_Click"></Button>
+            <Button MinWidth="80" Name="btnCancel" Content="Cancel" Margin="30,0,0,0" IsCancel="True"></Button>
+        </StackPanel>
+
+    </StackPanel>
+
+
+
+</Window>
