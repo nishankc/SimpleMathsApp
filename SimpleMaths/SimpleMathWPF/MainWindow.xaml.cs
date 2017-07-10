@@ -452,7 +452,7 @@ namespace SimpleMathWPF
             client.Timeout = 10000;
             client.DeliveryMethod = SmtpDeliveryMethod.Network;
             client.UseDefaultCredentials = false;
-            client.Credentials = new System.Net.NetworkCredential("info@nishank.co.uk", "babykomal");
+            client.Credentials = new System.Net.NetworkCredential("********", "******");
             string body = "Addidition Score: " + AddScore.Content + System.Environment.NewLine +
                 "Subtraction Score: " + SubtractScore.Content + System.Environment.NewLine +
                 "Multiplication Score: " + MultiplyScore.Content + System.Environment.NewLine +
