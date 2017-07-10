@@ -362,7 +362,7 @@ namespace SimpleMaths
             client.Timeout = 10000;
             client.DeliveryMethod = SmtpDeliveryMethod.Network;
             client.UseDefaultCredentials = false;
-            client.Credentials = new System.Net.NetworkCredential("info@nishank.co.uk", "babykomal");
+            client.Credentials = new System.Net.NetworkCredential("*********", "*********");
             string body = "Addidition Score: " + lblAddScore.Text + System.Environment.NewLine +
                 "Subtraction Score: " + lblSubtractScore.Text + System.Environment.NewLine +
                 "Multiplication Score: " + lblMultiplyScore.Text + System.Environment.NewLine +
